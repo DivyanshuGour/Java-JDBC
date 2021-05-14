@@ -1,5 +1,4 @@
-package jdbcdemo24feb;
-
+package jdbcdemo;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -23,7 +22,7 @@ public class Pro1
             
             Statement stm = cnn.createStatement();
             
-            String query = "insert into student value(101,'Vikas','Indore',55,44,33)";
+            String query = "insert into student value(101,'Divyanshu','Indore',55,44,33)";
             
             stm.executeUpdate(query); // DML- insert,update,delete
             
