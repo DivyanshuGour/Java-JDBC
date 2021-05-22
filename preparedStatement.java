@@ -32,7 +32,7 @@ public class Pro1
             
             ps.executeUpdate(); 
             
-            stm.close();
+            ps.close();
             cnn.close();
             System.out.println("Success !");
         } catch (ClassNotFoundException ex) 
